@@ -1,15 +1,15 @@
 import sys
 
 def main():
-	a = 0
-	b = 1
+    a = 0
+    b = 1
 
-	for i in range(40):
-		print('%d %d' % (i,b))
+    for i in range(40):
+        print('%d %d' % (i,b))
 
-		c = a + b
-		a = b
-		b = c
+        c = a + b
+        a = b
+        b = c
 
 if __name__ == '__main__':
-	sys.exit(main())
+    sys.exit(main())
