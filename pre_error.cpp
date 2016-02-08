@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int bugs = 1;
-	for( int i=0; i<10; ++i )
+	for( int i=0; i>10; ++i )
 	{
 		cout << bugs << " little bugs in the code" << endl;
 		cout << bugs << " little bugs" << endl;
