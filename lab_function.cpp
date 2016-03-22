@@ -8,6 +8,11 @@ using namespace std;
 // COMPLETE ME
 // PUT THE leap_year() FUNCTION THAT YOU WRITE HERE
 
+bool leap_year( int year )
+{
+  return year % 4 == 0;
+}
+
 int main()
 {
 	int errors = 0;
@@ -32,5 +37,5 @@ int main()
 	else
 		cout << "Uh oh, " << errors << " error/s remain" << endl;
 
-	return 0;
+	return errors;
 }
