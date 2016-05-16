@@ -2,7 +2,7 @@ import sys
 
 def main():
     print('What is your age?')
-    age = input()
+    age = int(input())
 
     if age < 5:
         print("You're a baby")
